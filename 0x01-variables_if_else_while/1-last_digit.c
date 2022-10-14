@@ -15,10 +15,10 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 L = n % 10;
 if (L > 5)
-printf("%d is %s and is greater than 5\n", str, n, L);
+printf("%s is %d and is greater than 5\n", str, n, L);
 else if (L == 0)
-printf("%d is %s and is 0\n", str, n, L);
+printf("%s is %d and is 0\n", str, n, L);
 else if (L < 6)
-printf("%d is %s and is less than 6 and not 0\n", str, n, L);
+printf("%s is %d and is less than 6 and not 0\n", str, n, L);
 return (0);
 }
