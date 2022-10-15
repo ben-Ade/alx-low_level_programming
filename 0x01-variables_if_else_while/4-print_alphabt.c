@@ -9,7 +9,7 @@
 int main(void)
 {
 char alphab;
-for (alphab = 'a'; alpha <= 'z' && alphab != 'e' && alphab != 'q'; alphab++)
+for (alphab = 'a'; alphab <= 'z' && alphab != 'e' && alphab != 'q'; alphab++)
 putchar(alpha);
 printf("\n");
 return (0);
