@@ -11,6 +11,6 @@ int main(void)
 int no;
 for (no = '0'; no <= '9'; no++)
 putchar(no);
-printf("\n");
+putchar("\n");
 return (0);
 }
