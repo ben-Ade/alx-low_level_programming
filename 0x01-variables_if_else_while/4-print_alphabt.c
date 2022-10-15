@@ -10,7 +10,7 @@ int main(void)
 {
 char alphab;
 for (alphab = 'a'; alphab <= 'z' && alphab != 'e' && alphab != 'q'; alphab++)
-putchar(alpha);
+putchar(alphab);
 printf("\n");
 return (0);
 }
