@@ -9,8 +9,11 @@
 int main(void)
 {
 char alphab;
-for (alphab = 'a'; alphab != 'e' && alphab != 'q' && alphab <= 'z'; alphab++)
+for (alphab = 'a'; alphab <= 'z'; alphab++)
+{
+if (alphab != 'e' && alphab != 'q')
 putchar(alphab);
+}
 printf("\n");
 return (0);
 }
