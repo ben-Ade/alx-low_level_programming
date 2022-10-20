@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+*main- prints sum of multiple of 3 and 5
+*
+*/
+int main(void)
+{
+int a, sum;
+while (a < 1024)
+{
+if (a % 3 == 0 || a % 5 == 0)
+{
+sum += a;
+}
+a++;
+}
+printf("%i\n", sum);
+return (0);
+}
