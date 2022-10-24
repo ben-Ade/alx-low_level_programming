@@ -1,6 +1,8 @@
 #include "main.h"
 /**
-*MAin--Reset pointer to 98
+*reset_to_98-Reset pointer to 98
+*
+*@n:points int
 *
 * Return: void
 */
