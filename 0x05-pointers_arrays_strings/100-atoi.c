@@ -18,12 +18,13 @@ if (s[i] == 45)
 sign *= -1;
 }
 else
-}
+{
 while (s[i] >= 48 && s[i] <= 57)
 {
 flag = 1;
 n = (n * 10) + (s[i] - '0');
 i++;
+}
 }
 }
 if (flag == 1)
