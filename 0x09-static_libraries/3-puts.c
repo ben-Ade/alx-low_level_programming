@@ -1,0 +1,10 @@
+#include "main.h"
+/**
+* main - Entry point
+* @s: s
+* Return: Always 0 (Success)
+*/
+void _puts(char *s)
+{
+return;
+}
